@@ -1,0 +1,7 @@
+List:-
+List tag is use to show the list
+
+types:-
+1. Unordered list:-
+<ul></ul> -> Unordered List
+<li></li> -> List item
