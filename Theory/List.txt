@@ -5,3 +5,13 @@ types:-
 1. Unordered list:-
 <ul></ul> -> Unordered List
 <li></li> -> List item
+
+2.Ordered List:-
+<ol></ol> -> Ordered List
+<li></li> -> List item
+
+3.Data List:-
+- Description list used to give definition of the term
+<dl></dl> - data List
+<dt></dt> - data term
+<dd></dd> - data description
