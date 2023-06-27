@@ -1,0 +1,18 @@
+Table is use to arrange the data into the tabular(row and column) formate
+
+Element:-
+<table></table> - Use to define the table
+<thead></thead> - Table Head
+<tbody></tbody> - Table Body
+<tfoot></tfoot> - Table Footer
+<tr><tr> - Table row
+<th></th> - Table Head
+<td></td> - Table data
+<caption></caption> - Use to define the table caption
+
+Attribute:-
+border -> Apply the border to the every cell and table
+colspan -> Use to Merge the column
+rowspan -> Use to merge the row
+cellpadding -> Use to give the space inside the cell 
+cellspacing -> Use to apply the space between two cell

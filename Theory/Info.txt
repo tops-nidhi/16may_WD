@@ -35,3 +35,9 @@ Attribute:-
 ->Attribute is compulsory define inside the start tag
 
 for ex., <html lang="en"></html>
+-------------------------------------------------------------------
+
+Comment:- 
+-> Comment are used in HTML code which will not be displayed on a webpage but it can help us
+ -> <!-- code -->
+
