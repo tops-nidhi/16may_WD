@@ -10,20 +10,41 @@
         <legend>Registration Form</legend>
         <form action="https://www.flipkart.com" method="post">
             <label for="fnm">Full Name: </label>
-            <input type="text" name="fnm" id="" class="" placeholder="Enter your Full Name...">
+            <input type="text" name="fnm" id="" class="" placeholder="Enter your Full Name..." required>
             <br><br>
             <label for="email">Email:</label>
             <input type="email" name="email" id="">
             <br><br>
             <label for="phno">Phone no:</label>
-            <input type="tel" name="" id="" >
+            <select name="phno" id="">
+                <option value="+91">+91</option>
+                <option value="+1">+1</option>
+                <option value="+92">+92</option>
+                <option value="+44">+44</option>
+
+            </select>
+            <input type="tel" name="" id="" required minlength="10" maxlength="10" pattern="[0-9]{10}">
+            <br><br>
+            <label for="gen">Gender:</label>
+            Male:<input type="radio" name="gen" id="">
+            Female:<input type="radio" name="gen" id="">
+            Other:<input type="radio" name="gen" id="">
+            <br><br>
+            <label for="cor">Course:</label>
+            <br>Web Designing<input type="checkbox" name="cor" id=""><br>
+            Front End<input type="checkbox" name="cor" id=""><br>
+            Web Development<input type="checkbox" name="cor" id="">
+            <br><br>
+            <label for="add">Address:</label>
+            <textarea name="" id="" cols="20" rows="5"></textarea>
             <br><br>
             <label for="pass">Password:</label>
-            <input type="password" name="pass" id="">
+            <input type="password" name="pass" id="" pattern="[0-9,A-Z,a-z,@]{6,8}" required>
             <br><br>
             <input type="submit" name="" id="" value="Sign-up">
             <input type="reset" name="" id="">
         </form>
+        <a href="Input-Field.html">Check input Field</a>
     </fieldset>
 </body>
 </html>

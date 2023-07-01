@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structure</title>
+    <style>
+        table, th, td{
+            border:  1px solid lime;
+            border-collapse: collapse;
+        }
+        th, td{
+            color: #fff;
+        }
+        caption{
+            color: lime;
+        }
+    </style>
+</head>
+<body bgcolor="black">
+    <table>
+        <caption>Nested Table</caption>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Schedule</th>
+                <th>Topic</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">tuesday</td>
+                <td>08:00am to 11:00am</td>
+                <td rowspan="3">
+                    <table cellpadding="7px">
+                        <tr><td>X-Path</td></tr>
+                        <tr><td>XSL transformation</td></tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>11:00am to 02:00pm</td>
+
+            </tr>
+            <tr>
+                <td>02:00pm to 05:00pm</td>
+
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
