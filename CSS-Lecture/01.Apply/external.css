@@ -1,0 +1,11 @@
+body{
+    background: black;
+}
+h2{
+    border: 1px solid white;
+    color: bisque;
+}
+p{
+    color: white;
+    border: white 1px solid;
+}
